@@ -27,6 +27,32 @@ h1 {
     font-style: normal;
 }
 
+.seccion-oscura {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.seccion-texto {
+    margin: 0 10px;
+    font-size: 1.1rem;
+    font-weight: 350;
+    text-align: justify;
+}
+
 /* Seccion Hero */
 
 .hero {
@@ -59,10 +85,58 @@ h1 {
     color: #615151;
 }
 
+/* Sobre mi */
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Experiencia */
+
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.badge {
+    margin: 5px;
+}
+
 /* Adaptable (Responsivo) */
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
     }
 }

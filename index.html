@@ -70,18 +70,18 @@
                             <a
                                 class="nav-link active"
                                 aria-current="page"
-                                href="#"
+                                href="#sobre-mi"
                                 >Sobre mi</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonios</a>
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -114,8 +114,9 @@
                 />
             </div>
         </section>
+
         <!-- Sobre mi -->
-        <section class="sobre-mi seccion-oscura">
+        <section id="sobre-mi" class="sobre-mi seccion-oscura">
             <div class="contenedor">
                 <h2 class="seccion-titulo">
                     Conoce a Ramón Felipe Pérez Osorio
@@ -201,7 +202,7 @@
         </section>
 
         <!-- Proyectos -->
-        <section class="proyectos-recientes seccion-clara d-flex flex-column">
+        <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
             <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
             <h3 class="seccion-descripcion">
                 Estos son algunos proyectos que he creado recientemente...
@@ -414,7 +415,7 @@
         </section>
 
         <!-- Testimonios -->
-        <section class="testimonios seccion-clara">
+        <section id="testimonios" class="testimonios seccion-clara">
             <h2 class="seccion-titulo">Testimonios</h2>
             <h3 class="seccion-descripcion">
                 Estos son algunos testimonios de mis clientes...
@@ -515,6 +516,69 @@
                 </button>
             </div>
         </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+                <div
+                    class="container text-center rectangulo d-flex justify-content-evenly"
+                >
+                    <div class="row">
+                        <div class="col-12 col-md-4 seccion-titulo">
+                            ¡Hablemos!
+                        </div>
+                        <div class="col-12 col-md-4 descripcion">
+                            Contactame para iniciar tu proyecto de desarrollo
+                            web y hare tu vision realidad
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="mailto:ramonfelipeperezosorio@gmail.com">
+                                <button type="button">
+                                    Contacto
+                                    <i class="bi bi-envelope-check-fill"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pie de pagina (footer) -->
+        <footer
+            class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+        >
+            <img
+                class="footer-logo"
+                src="img/proyecto1.png"
+                alt="Logo del portafolio"
+            />
+            <p class="footer-texto text-center">
+                Aprendo y creo todos los dias.<br />Creemos un proyecto juntos.
+            </p>
+            <div
+                class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+            >
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-envelope"></i>
+                </a>
+            </div>
+            <div class="derechos-de-autor">
+                Creado por Ramón Felipe Pérez Osorio (2024) &#169;
+            </div>
+        </footer>
 
         <!-- Bootstrap -->
         <script
